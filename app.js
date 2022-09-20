@@ -46,6 +46,8 @@ UI.prototype.clearFields = function(){
 //show alerts
 UI.prototype.showAlert = function(message, classname){
   
+}
+  
 
 
 //Event Listeners
