@@ -1,13 +1,13 @@
-.success, .error {
+.alert-success, .alert-error {
   color: white;
   padding: 5px;
   margin: 5px 0 15px 0;
 }
 
-.success {
+.alert-success {
   background-color: green;
 }
 
-.error {
+.alert-error {
   background-color: red;
 }
