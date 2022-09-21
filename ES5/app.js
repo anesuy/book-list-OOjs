@@ -8,6 +8,8 @@ function Book(title, author, isbn) {
 //UI Constructor
 function UI() {}
 
+//ui protoype functions/////////////////////////////////////////////////////
+
 UI.prototype.addBookToList = function (book) {
   const list = document.getElementById("book-list");
   //create tr for values
@@ -76,7 +78,8 @@ UI.prototype.deleteBook = function(target) {
   }
 }
 
-
+////////////////////////////////////////////////////////////////////////////
+////////////////ADD ITEM
 //Event Listeners
 const form = document.getElementById("book-form");
 form.addEventListener("submit", formSubmit);
@@ -112,7 +115,7 @@ function formSubmit(e) {
   e.preventDefault();
 }
 
-//delete item
+////////////////DELETE ITEM
       //event listener
 const bookListItem = document.getElementById('book-list')
 bookListItem.addEventListener('click', deleteItem)

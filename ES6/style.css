@@ -1,0 +1,13 @@
+.alert-success, .alert-error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.alert-error {
+  background-color: red;
+}
